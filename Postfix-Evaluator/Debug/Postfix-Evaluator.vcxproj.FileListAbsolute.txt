@@ -1,0 +1,2 @@
+C:\Users\Trevor Tang\source\repos\Postfix-Evaluator\Postfix-Evaluator\Debug\Postfix-Evaluator.exe
+C:\Users\Trevor Tang\source\repos\Postfix-Evaluator\Postfix-Evaluator\Debug\Postfix-Evaluator.pdb

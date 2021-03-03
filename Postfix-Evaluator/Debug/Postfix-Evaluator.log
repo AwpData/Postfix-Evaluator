@@ -1,0 +1,8 @@
+﻿  Postfix-Evaluator.cpp
+C:\Users\Trevor Tang\source\repos\Postfix-Evaluator\Postfix-Evaluator\Stack.h(9,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Trevor Tang\source\repos\Postfix-Evaluator\Postfix-Evaluator\Stack.h(9,11): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Stack.cpp
+C:\Users\Trevor Tang\source\repos\Postfix-Evaluator\Postfix-Evaluator\Stack.h(9,11): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Trevor Tang\source\repos\Postfix-Evaluator\Postfix-Evaluator\Stack.h(9,11): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Generating Code...
+  Postfix-Evaluator.vcxproj -> C:\Users\Trevor Tang\source\repos\Postfix-Evaluator\Postfix-Evaluator\Debug\Postfix-Evaluator.exe
