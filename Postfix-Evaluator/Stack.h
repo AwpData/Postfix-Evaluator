@@ -15,7 +15,7 @@ public:
 	bool isEmpty();
 	bool isFull();
 
-	void printStack();
+	/*void printStack();*/
 };
 
 #endif

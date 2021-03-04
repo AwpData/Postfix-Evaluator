@@ -12,6 +12,7 @@ void Stack::push(int num) { // Pushes number to the top as long as there is spac
 		cout << "Error: stack is full, cannot push " << num << endl;
 		return;
 	}
+	cout << "Pushing: " << num << endl;
 	this->arr[top++] = num; // Post-increments top after we add the num for next push call 
 }
 
@@ -20,6 +21,7 @@ int Stack::pop() { // Pops top-most number and returns it as long as top is != 0
 		cout << "Error: stack is empty, cannot pop" << endl;
 		return NULL;
 	}
+	cout << "Popping: " << arr[top - 1] << endl;
 	return this->arr[--top]; // Decrements top before returning so we don't get an empty index 
 }
 
@@ -32,9 +34,9 @@ bool Stack::isFull() { // Checks if the stack is full (top = ARRSIZE)
 	return this->top == ARRSIZE;
 }
 
-void Stack::printStack() { // Prints the stack from bottom-most to top-most element 
-	for (int i = 0; i < this->top; i++) {
-		cout << this->arr[i] << " ";
-	}
-	cout << endl;
-}
+//void Stack::printStack() { // Prints the stack from bottom-most to top-most element 
+//	for (int i = 0; i < this->top; i++) {
+//		cout << this->arr[i] << " ";
+//	}
+//	cout << endl;
+//}
