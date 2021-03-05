@@ -2,7 +2,7 @@
 
 #pragma once
 
-#define ARRSIZE 5 // Change if you want to adjust stack size 
+#define ARRSIZE 99 // Change if you want to adjust stack size 
 class Stack {
 private:
 	int top;
@@ -15,7 +15,7 @@ public:
 	bool isEmpty();
 	bool isFull();
 
-	/*void printStack();*/
+	void printStack();
 };
 
 #endif

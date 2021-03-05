@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 using namespace std;
+
 int main()
 {
 	Stack s;
@@ -27,34 +28,34 @@ int main()
 		case '7':
 		case '8':
 		case '9':
-			s.push(c - 48); // Subtract 48 to get the actual int value of each char int value 
+			s.push(c - 48); // Subtract 48 (char '0' = 48) to get the actual int value of each char int value 
 			break;
 		case '+':
-			cout << "Adding next two numbers" << endl;
+			/*cout << "Adding next two numbers" << endl;*/
 			op2 = s.pop();
 			op1 = s.pop();
-			cout << "Done" << endl;
+			/*cout << "Done" << endl;*/
 			s.push(op1 + op2);
 			break;
 		case '-':
-			cout << "Subtracting next two numbers" << endl;
+			/*cout << "Subtracting next two numbers" << endl;*/
 			op2 = s.pop();
 			op1 = s.pop();
-			cout << "Done" << endl;
+			/*cout << "Done" << endl;*/
 			s.push(op1 - op2);
 			break;
 		case '*':
-			cout << "Multiplying next two numbers" << endl;
+			/*cout << "Multiplying next two numbers" << endl;*/
 			op2 = s.pop();
 			op1 = s.pop();
-			cout << "Done" << endl;
+			/*cout << "Done" << endl;*/
 			s.push(op1 * op2);
 			break;
 		case '/':
-			cout << "Dividing next two numbers" << endl;
+			/*cout << "Dividing next two numbers" << endl;*/
 			op2 = s.pop();
 			op1 = s.pop();
-			cout << "Done" << endl;
+			/*cout << "Done" << endl;*/
 			s.push(op1 / op2);
 			break;
 		}
